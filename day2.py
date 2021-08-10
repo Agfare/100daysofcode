@@ -31,6 +31,7 @@ print("Your BMI is: " + str((int(weight) / float(height) ** 2)))
 
 # Death calculator
 age = input("What is your current age?")
+years = 90
 what_is_left_years = int(years) - int(age)
 days_left = int(what_is_left_years) * 365
 weeks_left = int(what_is_left_years) * 52
